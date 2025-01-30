@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family : 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#prompt {
+    font-size: 3rem;
+    margin: 20px 0;
+    transition: opacity 0.5 ease;
+}
+
+#description {
+    font-size: 1rem;
+    margin: 20px 0;
+    transition: opacity 0.5 ease;
+}
+
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin: 50px auto;
+    transition: transform 4s ease-in-out;
+}
+
+.inhale-animation {
+    transform: scale(1.5);
+}
+
+.exhale-animation {
+    transform: scale(1);
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+@keyframes breathe {
+    0%, 100% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(1.2)
+    }
+}
+
+#catButton {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#catButton:hover {
+    background-color: #ff9900;
+}
+
+#catImageContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#catImageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-width: 300px; /* Limit the image width */
+    max-height: 300px; /* Limit the image height */
+}
