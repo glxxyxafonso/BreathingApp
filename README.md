@@ -13,12 +13,14 @@ I feel like I should also say this: I rawdogged this. I did not watch any movies
 I almost crashed out because I hate Javascript. Someone make a JS replacement. Please.
 
 Here's a screenshot!!! 
+
+
 ![image](https://github.com/user-attachments/assets/c3b009ac-72fd-49bf-98ef-8d50059ab21f)
 
 
 Anyways, hope you enjoy this app and that it makes you relax after a long day. 
 
-LICENSE info:
+**LICENSE info:**
 
 This app has been released into the Public Domain. I have no rights under it.
 
